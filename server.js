@@ -99,6 +99,7 @@ server.on('upgrade', (req, socket, head) => {
       if (clientWs.readyState === WebSocket.OPEN) clientWs.close(code);
     });
 
+    
     upstream.on('error', (err) => {
       console.error(`[PROXY] Upstream error: ${err.message}`);
       if (clientWs.readyState === WebSocket.OPEN) clientWs.close(1011);
