@@ -1,16 +1,5 @@
 {
   "name": "crash-ws-proxy",
-  "version": "1.0.0",
-  "description": "WebSocket proxy for Melbet Crash — runs on Vercel Mumbai",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev":   "node server.js"
-  },
-  "dependencies": {
-    "ws": "^8.16.0"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+  "version": "2.0.0",
+  "description": "WebSocket proxy for Melbet Crash — Vercel Edge Runtime, Mumbai"
 }

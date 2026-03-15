@@ -1,16 +1,3 @@
 {
-  "version": 2,
-  "regions": ["bom1"],
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.js"
-    }
-  ]
+  "regions": ["bom1"]
 }
